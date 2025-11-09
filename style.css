@@ -55,6 +55,10 @@ header h1{
     border-radius: 10px;
 }
 
+.section{
+    background-color: var(--cor-terra);
+}
+
 .info {
     max-width: 1200px;
     margin: 30px auto;
@@ -87,8 +91,15 @@ header h1{
     margin-bottom: 20px;
 }
 
-.agenda { 
-    font-style: normal;
+.agenda {
+    color: var(--cor-ouro);
+    padding: 0 0 0 10%;
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    
 
 }
 .info-cards time{
