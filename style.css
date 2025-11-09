@@ -55,16 +55,28 @@ header h1{
     border-radius: 10px;
 }
 
-.msg {
-    max-width: 90%;
-    margin: 20px auto;
-    padding: 30px;
-    background-color: var(--cor-braco-luz);
+.info {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    /*background-color: var(--cor-braco-luz);
     border: 2px solid var(--cor-ouro);
     border-radius: 10px;
-    text-align: center;
+    text-align: center;*/
+    gap: 30px;
+    flex-wrap: wrap;
 }
-.msg h2{
+
+.info-card{
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    background-color: var(--cor-braco-luz);
+    border: 3px solid var(--cor-ouro);
+    border-radius: 10px;
+}
+.info h2{
     color: var(--cor-terra);
     font-size: 0.8rem;
     margin-bottom: 20px;
